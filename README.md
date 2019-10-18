@@ -11,7 +11,9 @@ How to create jar file as library
   jar cfm CCC.jar CCC/MANIFEST.MF CCC/*.class
 
 4.Copy jar file to your project.
+
 5.Compile linking jar file
 javac -cp .:CCC.jar Main.java Calculator.java 
+
 6.run
 java -cp .:CCC,jar Main 
